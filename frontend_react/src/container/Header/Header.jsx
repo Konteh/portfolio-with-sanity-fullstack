@@ -25,9 +25,9 @@ const scaleVariants = {
         <div className="app__header-badge">
           <div className="badge-cmp app__flex">
             <span>👋</span>
-            <div style={{ marginLeft: 20 }}>
+            <div style={{ marginLeft: 20}}>
               <p className="p-text">Hello, I am</p>
-              <h1 className="head-text">Ebrima Konteh</h1>
+              <h1 className="head-text">Konteh.gm</h1>
             </div>
           </div>
   
@@ -36,12 +36,17 @@ const scaleVariants = {
             {/* <p className="p-text">backend Developer</p> */}
           </div>
           <div className="tag-cmp app__flex">
-            <p className="p-text">The driving force of our current generation is technology.
+            <p className="p-text">Chief Operations Officer, Gomindz. <br />
+            Lead Instructor, Gomindz Academy
               
              </p>
           </div>
           <div className="tag-cmp app__flex">
-            <p className="p-text"> Making a creative design for your products is a neccessity.
+            <p className="p-text"> Visual Artist, kontehgraphics.
+             </p>
+          </div>
+          <div className="tag-cmp app__flex">
+            <p className="p-text"> Am a coffee enthusiast
              </p>
           </div>
         </div>
@@ -67,7 +72,7 @@ const scaleVariants = {
         whileInView={scaleVariants.whileInView}
         className="app__header-circles"
       >
-        {[images.react, images.git, images.figma].map((circle, index) => (
+        {[images.react, images.git, images.figma,images.coffee3].map((circle, index) => (
           <div className="circle-cmp app__flex" key={`circle-${index}`}>
             <img src={circle} alt="profile_bg" />
           </div>

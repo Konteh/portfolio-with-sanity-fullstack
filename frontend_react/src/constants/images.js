@@ -4,6 +4,7 @@ import api from '../assets/api.png';
 import cpp from '../assets/cpp.png';
 import css from '../assets/css.png';
 import figma from '../assets/figma.png';
+import coffee3 from '../assets/coffee3.png';
 import flutter from '../assets/flutter.png';
 import git from '../assets/git.png';
 import graphql from '../assets/graphql.png';
@@ -42,6 +43,7 @@ export default {
   cpp,
   css,
   figma,
+  coffee3,
   flutter,
   git,
   graphql,
